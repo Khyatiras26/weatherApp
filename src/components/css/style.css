@@ -8,7 +8,7 @@
 body{
     height: max-content;
     width: max-content;
-    background-color: rgb(221, 219, 219);
+    background-color: rgb(15, 23, 38);
     font-family: 'Jost', sans-serif;
 }
 
@@ -21,7 +21,7 @@ body{
     height: 60vh;
     width: 40vw;
     text-align: center;
-    background-color: rgba(55, 162, 211, 0.205);
+    background: url('https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=400x300');
     border-radius: 8%;
     
 }
@@ -44,7 +44,7 @@ body{
     text-transform: capitalize;
 }
 .location{
-    color:gray;
+    color:rgb(27, 25, 34);
 }
 
 .temp{
@@ -56,3 +56,8 @@ body{
     margin-top: 20px;
 }
 
+
+.unit_style{
+    border-radius: 8px;
+    border: solid 0px grey;
+}
